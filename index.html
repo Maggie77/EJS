@@ -9,7 +9,7 @@
   <script>
     var people = ['geddy', 'neil', 'alex'];
     var html = ejs.render('<%= people.join(", "); %>', {people: people});
-    console.log(html);
+    
     document.body.innerHTML = html;
   </script>  
 </body>
